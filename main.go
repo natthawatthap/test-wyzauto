@@ -8,7 +8,6 @@ type Route struct {
     Duration   int
 }
 
-=
 func AddRoute(routes []Route, startPoint, endPoint string, duration int) []Route {
     newRoute := Route{StartPoint: startPoint, EndPoint: endPoint, Duration: duration}
     return append(routes, newRoute)
